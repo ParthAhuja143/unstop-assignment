@@ -1,0 +1,51 @@
+.main{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 700px){
+    .main{
+        width: calc(100%);
+        margin-left: 0;
+    }
+}
+
+h2{
+    color: var(--text-100, #1C4980);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.assess__mobile{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.assess_overview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.assess{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.assess_overview_container{
+    width: 100%;
+}

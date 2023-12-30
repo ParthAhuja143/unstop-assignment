@@ -1,0 +1,134 @@
+.assessment {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  flex: 1 0 0;
+  border-radius: 12px;
+  border: 1px solid var(--System-stroke2, #dadce0);
+  background: var(--Text-White, #fff);
+  max-width: 400px;
+  width: 100%;
+  margin: 10px;
+}
+
+.assessment__header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.assessment__icon {
+  width: 50px;
+  height: 50px;
+}
+
+h4 {
+  color: var(--text-100, #1c4980);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 140%;
+  margin: 0;
+}
+
+h6 {
+  color: var(--text-100, #1c4980);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 0 10px 0 0;
+  margin: 0;
+  border-right: 1px solid var(--Primary-50, #8da4bf);
+}
+
+.assessment__desc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px dashed var(--System-stroke2, #dadce0);
+}
+
+.assessment__date {
+  color: var(--Primary-50, #8da4bf);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  display: flex;
+  gap: 5px;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+.assessment__footer{
+    justify-content: space-between;
+    width: 100%;
+}
+
+.assessment__footer,
+.assessment__footer > div {
+  display: flex;
+  align-items: flex-end;
+}
+
+.assessment__footer__div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1px;
+  margin: 5px 10px;
+}
+sub {
+  color: var(--text-100, #1c4980);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 16.8px */
+}
+
+sub,
+p {
+  margin: 0;
+}
+
+.assessment__footer_p {
+  margin: 0;
+  color: var(--text-100, #1c4980);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 19.6px */
+}
+
+.assessment_button {
+  display: flex;
+  height: 30px;
+  padding: 2px 8px 2px 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  outline: none;
+  cursor: pointer;
+  color: #1c4980;
+  border-radius: 50px;
+  border: 1px solid var(--text-100, #1c4980);
+  background: var(--Text-White, #fff);
+}
+
+.assessment__footer__right{
+    gap: 4px;
+}
